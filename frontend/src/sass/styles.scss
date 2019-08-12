@@ -1,0 +1,40 @@
+$primary-background-color: #edf2f6;
+$primary-card-background-color: #f8f8f8;
+
+$primary-header-color: #6e79c1;
+$primary-sub-header-color: #2675a0;
+$secondary-header-color: #45749f;
+
+$primary-font-color: #4a4a4a;
+$primary-link-color: #6495f9;
+$highlight-color: #6573f4;
+
+$border-radius-default: 10px;
+$default-component-spacing: 20px 0;
+
+/* Generic Styles*/
+body {
+	font-family: 'PT Sans', sans-serif;
+	background-color: $primary-background-color;
+	color: $primary-font-color;
+	font-size: 16px;
+	line-height: 23px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.healme-container {
+	padding: 0 20px;
+}
+
+// Component Layout Items
+footer {
+	&.copyright {
+		color: $primary-font-color;
+		margin: 20px 0;
+		text-align: center;
+	}
+}
