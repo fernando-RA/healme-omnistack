@@ -4,10 +4,12 @@
 const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+
 const htmlPlugin = new HtmlWebPackPlugin({
     template: "./src/index.html",
     filename: "./index.html"
 });
+
 const cssPlugin = new MiniCssExtractPlugin({
     filename: "[name].css",
     chunkFilename: "[id].css"
@@ -15,6 +17,7 @@ const cssPlugin = new MiniCssExtractPlugin({
 
 module.exports = {
     devServer: {
+        historyApiFallback: true,
         contentBase: path.join(__dirname, 'dist'),
         compress: false,
         port: 3000,

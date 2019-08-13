@@ -6,14 +6,15 @@ import { Provider } from 'react-redux';
 import style from "./sass/styles.scss";
 
 import Footer from "./views/components/Footer";
+import Header from "./views/components/Header";
 // import About from "./views/pages/About";
-// import Reducers from './reducers';
+import reducers from './reducers/mainPage';
 
 const HealmeMainApp = () => {
 	return (
-		<Provider>
+		<Provider store={createStore(reducers)}>
 			<div className="healme-container">
-				<h1>Coming Soon</h1>
+				<Header />
                 <Footer />
 			</div>
 		</Provider>
