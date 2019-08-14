@@ -1,11 +1,11 @@
 import React from 'react';
-import logoURL from '../../images/logo.svg';
+import * as logo from '../../images/logo.svg'
 
 export default function Header() {
-	console.log(logoURL)
+	console.log(logo)
 	return (
 		<div className="brand_logo">
-			<img src={logoURL} alt="Base Apparel" />
+			<img src={logo} alt="Base Apparel" />
 		</div>
 	);
 }

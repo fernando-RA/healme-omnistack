@@ -36,15 +36,17 @@ module.exports = {
 				test: /\.scss$/,
 				use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
 			},
-            {
-                test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
-                exclude: /node_modules/,
-                use: ['file-loader?name=[name].[ext]'],
-                options: {
-                    outputPath: 'images',
-                    publicPath: 'images',
-                },
-            },
+			{
+				test: /\.(png|jpg|gif|svg)$/i,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 8192
+						}
+					},
+				]
+			}
 		]
 	},
 	plugins: [htmlPlugin, cssPlugin]
