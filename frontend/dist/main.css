@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MzAiIGhlaWdodD0iODAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI5NS44NjElIiB4Mj0iMTAuOTEzJSIgeTE9IjIuNDc2JSIgeTI9IjEwMS43MTglIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZGMUYxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImIiIHgxPSI5NS45MzclIiB4Mj0iMTAuODQ4JSIgeTE9IjIuNDc2JSIgeTI9IjEwMS43MTglIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjRkZGMUYxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZGIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBmaWxsPSJ1cmwoI2EpIiBkPSJNMCA4MDBjNDguNTU3LTE4NC45OTEgMTY3LjA0OC0zMDEuNTcgMzU1LjQ3My0zNDkuNzM3QzU0My44OTggNDAyLjA5NiA2ODguMDc0IDI1Mi4wMDggNzg4IDB2ODAwSDB6IiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMzk0IDQwMCkiLz48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNNDEzIDgwMGMyNS42OTYtOTcuODE0IDg4LjQtMTU5LjQ1NSAxODguMTEyLTE4NC45MjRDNzAwLjgyNCA1ODkuNjA4IDc3Ny4xMiA1MTAuMjUgODMwIDM3N3Y0MjNINDEzeiIvPjwvZz48L3N2Zz4=);
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.grid__wrapper {
+  width: 90%;
+  margin: 0 auto; }
+
+header .brand__logo {
+  text-align: left;
+  padding: 20px 0; }
+
+section.section__image {
+  height: 200px;
+  background-image: url(1d55799afb7254685302a38efea12fd1.jpg);
+  background-size: cover;
+  margin: 0 -5%; }
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase; }
+  h1 .heading--light-text {
+    color: #ce9797;
+    font-weight: 300; }
+
+p {
+  color: #ce9797;
+  line-height: 27px; }
+
+form {
+  display: flex; }
+  form input {
+    border: 2px solid #ce9797;
+    border-radius: 25px;
+    height: 45px;
+    padding: 5px 20px;
+    width: 100%; }
+    form input::placeholder {
+      color: #ce9797; }
+    form input:focus {
+      border: 2px solid #f96262;
+      outline: none; }
+      form input:focus:invalid {
+        background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMiIgZmlsbD0iI0Y5NjQ2NCIvPjxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTEzLjI1NiA2djkuMDU2aC0yVjZoMnptLS45NDQgMTIuNDY0Yy0uMzg0IDAtLjY5OS0uMTA0LS45NDQtLjMxMmExLjAyNyAxLjAyNyAwIDAgMS0uMzY4LS44MjRjMC0uMzMuMTI1LS42MDguMzc2LS44MzIuMjUtLjIyNC41NjMtLjMzNi45MzYtLjMzNi4zNzMgMCAuNjguMTEyLjkyLjMzNi4yNC4yMjQuMzYuNTAxLjM2LjgzMiAwIC4zNDEtLjExNy42MTYtLjM1Mi44MjQtLjIzNS4yMDgtLjU0NC4zMTItLjkyOC4zMTJ6Ii8+PC9nPjwvc3ZnPg==) no-repeat 85% 50%; }
+  form button {
+    color: #fff;
+    cursor: pointer;
+    background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    border: none;
+    -webkit-box-shadow: -11px 14px 29px -9px #bdbdbd;
+    -moz-box-shadow: -11px 14px 29px -9px #bdbdbd;
+    box-shadow: -11px 14px 29px -9px #bdbdbd;
+    border-radius: 35px;
+    font-size: 3rem;
+    height: 45px;
+    margin-left: -10%;
+    width: 80px; }
+    form button:hover {
+      outline: none;
+      transform: scale(1.05);
+      background-image: linear-gradient(135deg, white, #f09898); }
+
+footer {
+  font-size: 1rem;
+  padding-top: 20px; }
+
+@media (min-width: 800px) {
+  body {
+    text-align: left; }
+  .grid__wrapper {
+    grid-column-gap: 2%;
+    display: grid;
+    grid-template-columns: 10% 4fr 3fr;
+    grid-template-rows: 15% auto 15%;
+    width: 100%;
+    min-height: 100vh; }
+  header {
+    grid-area: 1 / 2 / 2 / 3; }
+    header .brand__logo {
+      background-size: cover;
+      padding: 40px 0; }
+  main {
+    grid-area: 2 / 2 / 3 / 3;
+    max-width: 70%; }
+  h1 {
+    font-size: 80px;
+    letter-spacing: 20px; }
+  p {
+    color: #ce9797;
+    line-height: 27px; }
+  section.section__image {
+    background-image: url(003b0c9744b45dea37e19234916edb43.jpg);
+    background-size: cover;
+    grid-area: 1 / 3 / 4 / 4;
+    min-height: 100%;
+    margin: 0; }
+  footer {
+    grid-area: 3 / 2 / 4 /3;
+    font-size: 1.2rem; } }
+

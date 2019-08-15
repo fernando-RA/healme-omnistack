@@ -7,14 +7,18 @@ import style from "./sass/styles.scss";
 
 import Footer from "./views/components/Footer";
 import Header from "./views/components/Header";
+import Main from "./views/components/Main";
+
 // import About from "./views/pages/About";
 import reducers from './reducers/mainPage';
 
 const HealmeMainApp = () => {
 	return (
 		<Provider store={createStore(reducers)}>
-			<div className="healme-container">
+			<div className="grid__wrapper">
 				<Header />
+				<section class="section__image"></section>
+				<Main />
                 <Footer />
 			</div>
 		</Provider>
