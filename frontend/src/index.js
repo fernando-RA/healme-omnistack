@@ -17,7 +17,7 @@ const HealmeMainApp = () => {
 		<Provider store={createStore(reducers)}>
 			<div className="grid__wrapper">
 				<Header />
-				<section class="section__image"></section>
+				<section className="section__image"></section>
 				<Main />
                 <Footer />
 			</div>

@@ -9,7 +9,9 @@ export default class Footer extends React.Component {
 
     render() {
         return (
-            <footer className="copyright">&copy; {this.date} Awesome Healme Demo.</footer>
+            <footer className="copyright">
+                &copy; {this.date} Awesome Healme.
+            </footer>
         );
     }
 }
