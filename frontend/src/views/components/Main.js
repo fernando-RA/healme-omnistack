@@ -10,7 +10,7 @@ export default function Main() {
 					<span className="heading--light-text">Healme</span> Service
 				</h1>
 				<p>
-					A healer is not someone that you go to for healing. 
+					A healer is not someone that you go to for healing. <br />
 					A healer is someone that triggers within you,
 					your own ability to heal yourself. <br /> <br />
 				</p>
