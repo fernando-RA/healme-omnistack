@@ -1,4 +1,5 @@
 import React from 'react';
+import EmailForm from './EmailForm'
 
 import submit_arrow from '../../images/icon-arrow.svg';
 
@@ -11,18 +12,11 @@ export default function Main() {
 				</h1>
 				<p>
 					A healer is not someone that you go to for healing. <br />
-					A healer is someone that triggers within you,
-					your own ability to heal yourself. <br /> <br />
+					A healer is someone that triggers within you, your own ability to heal yourself. <br /> <br />
 				</p>
-				<form>
-					<input type="email" id="email_address" placeholder="Email Address" />
-					<button>
-						<img src={submit_arrow} alt="Submit arrow" />
-					</button>
-				</form>
-				<p>
-				Add your email above to stay up-to-date with our launch.
-				</p>
+			
+				<EmailForm/>
+				<p>Add your email above to stay up-to-date with our launch.</p>
 			</section>
 		</main>
 	);

@@ -21,6 +21,7 @@
 		"mini-css-extract-plugin": "^0.4.5",
 		"node-sass": "^4.10.0",
 		"react-addons-transition-group": "^15.6.2",
+		"react-mailchimp-form": "^1.0.2",
 		"react-redux": "^5.1.1",
 		"react-scroll": "^1.7.10",
 		"redux": "^4.0.1",
