@@ -56,6 +56,7 @@ form {
   form button {
     color: #fff;
     cursor: pointer;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIyMCI+PHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGIiBzdHJva2Utd2lkdGg9IjIiIGQ9Ik0xIDFsOC44MzYgOC44MzZMMSAxOC42NzEiLz48L3N2Zz4=);
     background-image: linear-gradient(135deg, #fccfcf, #ee8c8c);
     border: none;
     -webkit-box-shadow: -11px 14px 29px -9px #bdbdbd;
@@ -64,8 +65,8 @@ form {
     border-radius: 35px;
     font-size: 3rem;
     height: 45px;
-    margin-left: -10%;
-    width: 80px; }
+    margin-left: -8%;
+    width: 180px; }
     form button:hover {
       outline: none;
       transform: scale(1.05);
